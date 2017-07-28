@@ -72,16 +72,16 @@ public let standardEnv = Env([
     "hypot":    Math.hypot,
     "sin":      Math.sin,
     "tan":      Math.tan,
+    //            // Hyperbolic Functions
+    "acosh":    Surge.acosh,
+    "asinh":    Surge.asinh,
+    "atanh":    Surge.atanh,
+    "cosh":     Surge.cosh,
+    "sinh":     Surge.sinh,
+    "tanh":     Surge.tanh,
     //            // Angular conversion
     //            "degrees": degrees,
     //            "radians": radians,
-    //            // Hyperbolic functions
-    //            "acosh":    acosh,
-    //            "asinh":    asinh,
-    //            "atanh":    atanh,
-    //            "cosh":     cosh,
-    //            "sinh":     sinh,
-    //            "tanh":     tanh,
     //            // Special functions
     //            "erf":      erf,
     //            "erfc":     erfc,
