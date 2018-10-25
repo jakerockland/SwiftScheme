@@ -1,12 +1,8 @@
 # Travis CI build file for Package-Builder.
 # Package-Builder runs on OS X and Linux (Ubuntu).
 
-# whitelist (branches that should be built)
-branches:
-  only:
-    - master
-    - develop
-    - /^issue.*$/
+before_install:
+- git clone https://github.com/IBM-Swift/Package-Builder.git
 
 matrix:
   include:
